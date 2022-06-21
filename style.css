@@ -1,8 +1,29 @@
+body{
+    background: #ccc;
+}
 #title , .subtitle, .post_title{
     color: blue;
+}
+.photon{
+    border-radius: 50%;
 }
 
 .post_title{
     font-size: 16px;
     font-style: italic;
+}
+.post_image{
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    background-color: #fff;
+    padding: 10px;
+    border: 3px solid #505050;
+    margin: 15px;
+    border-radius: 10px;
 }
