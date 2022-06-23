@@ -1,6 +1,8 @@
 body{
     background: #ccc;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 #title , .subtitle, .post_title{
     color: blue;
@@ -26,11 +28,13 @@ a{
 .post_image{
     margin-bottom: 15px;
     border-radius: 10px;
+    width: 100%;
 }
 .post_content{
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 .post{
     background-color: #fff;
